@@ -1,5 +1,7 @@
 "use strict";
 
+let size = 50;
+
 drawAvatar();
 
 function drawAvatar() {
@@ -15,17 +17,17 @@ function drawAvatar() {
     context.fill();
 
     context.beginPath();
-    context.rect(100, 100, 50, 50);
-    context.rect(100, 150, 50, 50);
-    context.rect(150, 150, 50, 50);
-    context.rect(200, 100, 50, 50);
-    context.rect(200, 200, 50, 50);
-    context.rect(200, 250, 50, 50);
-    context.rect(150, 250, 50, 50);
-    context.rect(200, 150, 50, 50);
-    context.rect(100, 200, 50, 50);
-    context.rect(100, 250, 50, 50);
-    context.rect(150, 300, 50, 50);
+    context.rect(100, 100, size, size);
+    context.rect(100, 150, size, size);
+    context.rect(150, 150, size, size);
+    context.rect(200, 100, size, size);
+    context.rect(200, 200, size, size);
+    context.rect(200, 250, size, size);
+    context.rect(150, 250, size, size);
+    context.rect(200, 150, size, size);
+    context.rect(100, 200, size, size);
+    context.rect(100, 250, size, size);
+    context.rect(150, 300, size, size);
     context.fillStyle = "#00FF00"
     context.stroke();
     context.fill();
