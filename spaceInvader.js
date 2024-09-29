@@ -26,7 +26,7 @@ function drawAvatar() {
     context.rect(100, 200, 50, 50);
     context.rect(100, 250, 50, 50);
     context.rect(150, 300, 50, 50);
-    context.fillStyle = "green"
+    context.fillStyle = "#00FF00"
     context.stroke();
     context.fill();
 
