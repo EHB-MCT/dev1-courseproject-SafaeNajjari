@@ -13,7 +13,7 @@ function drawAvatar() {
 
     context.beginPath();
     context.rect(25, 75, 300, 300);
-    context.fillStyle = "black"
+    context.fillStyle = "black";
     context.fill();
 
     context.beginPath();
@@ -28,8 +28,8 @@ function drawAvatar() {
     context.rect(100, 200, size, size);
     context.rect(100, 250, size, size);
     context.rect(150, 300, size, size);
-    context.fillStyle = "#00FF00"
-    context.stroke();
+    context.fillStyle = "#00FF00";
+
     context.fill();
 
 }
